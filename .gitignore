@@ -1,0 +1,29 @@
+# Python
+__pycache__/
+*.pyc
+.venv/
+venv/
+.pytest_cache/
+*.egg-info/
+dist/
+build/
+
+# Node
+node_modules/
+frontend/dist/
+.vite/
+
+# Audio and MIDI scratch files
+*.wav
+*.mp3
+*.mid
+*.midi
+!backend/tests/fixtures/*
+
+# Environment and editors
+.env
+.env.*
+.DS_Store
+.idea/
+.vscode/
+*.swp
