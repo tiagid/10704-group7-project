@@ -17,9 +17,8 @@ All three members work across the full stack. Lead roles indicate ownership and 
 ## Repository layout
 
 ```
-backend/    Python 3.12 transcription pipeline and FastAPI service
+backend/    Python transcription pipeline and FastAPI service
 frontend/   React + Vite web interface
-.github/    CI workflow and pull request template
 ```
 
 ## Tech stack
@@ -33,9 +32,4 @@ Python 3.12, librosa, basic-pitch, crepe, mido / pretty_midi, FastAPI + Uvicorn,
 
 ## Workflow
 
-- `main` is protected. All changes go through a pull request with at least one approving review and a passing CI run.
-- Branch names: `feature/<short-description>`, `fix/<short-description>`, `chore/<short-description>`.
-- Work is tracked on the GitHub Projects board. Every PR should link the issue it closes.
-- Sprints are two weeks. Daniel runs planning and retrospectives.
-
-See `CONTRIBUTING.md` for setup and PR steps.
+`main` is protected. All changes go through a pull request with at least one approving review. Work is tracked on the GitHub Projects board in two-week sprints.
